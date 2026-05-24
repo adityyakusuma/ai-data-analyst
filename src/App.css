@@ -668,3 +668,7 @@ h6 {
   opacity: 1 !important;
   letter-spacing: -0.3px;
 }
+
+.hero h1 {
+  color: #ffffff !important;
+}
