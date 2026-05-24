@@ -672,3 +672,30 @@ h6 {
 .hero h1 {
   color: #ffffff !important;
 }
+
+select,
+select option,
+.control-group select,
+.control-group select option {
+  color: #111827 !important;
+  background-color: #ffffff !important;
+  opacity: 1 !important;
+  -webkit-text-fill-color: #111827 !important;
+}
+
+input,
+select,
+textarea {
+  color: #111827 !important;
+  background-color: #ffffff;
+  color-scheme: light;
+}
+
+.control-group label {
+  color: #6b7280 !important;
+  opacity: 1 !important;
+}
+
+.hero h1 {
+  color: #ffffff !important;
+}
