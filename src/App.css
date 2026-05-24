@@ -16,7 +16,11 @@ body {
 .hero {
   padding: 46px 8% 74px;
   background:
-    radial-gradient(circle at top right, rgba(96, 165, 250, 0.28), transparent 34%),
+    radial-gradient(
+      circle at top right,
+      rgba(96, 165, 250, 0.28),
+      transparent 34%
+    ),
     linear-gradient(135deg, #0f172a, #1d4ed8);
   color: white;
 }
@@ -641,4 +645,15 @@ tr:hover td {
   .chat-message p {
     max-width: 85%;
   }
+}
+
+.upload-card h2 {
+  color: #111827 !important;
+  opacity: 1 !important;
+  font-weight: 900;
+}
+
+.upload-card p {
+  color: #374151 !important;
+  opacity: 1 !important;
 }
